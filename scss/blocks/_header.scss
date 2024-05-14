@@ -1,0 +1,72 @@
+header {
+  margin-bottom: 15px;
+
+  & > div {
+    display: flex;
+    height: 64px;
+    gap: 15px;
+  }
+
+  nav {
+    background-color: #242424;
+    height: 64px;
+    width: 100%;
+    padding: 0 15px;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & > div {
+      height: 44px;
+    }
+
+    .metamask {
+      width: 156px;
+      height: 40px;
+    }
+
+    .button-group {
+      width: 400px;
+    }
+
+    // .search {
+    //   width: 500px;
+    // }
+    .search {
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+      border-radius: 40px;
+      background-color: #1b1b1b;
+      height: 44px;
+      width: 100%;
+      margin: 0 15px;
+      &_info {
+        img {
+          margin-right: 5px;
+        }
+        display: flex;
+        font-size: 17px;
+        font-family: 'HalveticaN', sans-serif;
+        color: #b4b4b4;
+      }
+    }
+
+    .deposit,
+    .create-event {
+      height: 60px;
+    }
+
+    .social {
+      display: flex;
+      align-items: center;
+
+      .theme {
+        margin-left: 10px;
+        margin-top: 10px;
+      }
+    }
+  }
+}
