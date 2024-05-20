@@ -49,6 +49,35 @@
     margin-bottom: 30px;
   }
 
+  .modalVideo {
+    width: 401px;
+    height: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    video {
+      border-radius: 10px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    p {
+      text-align: center;
+      text-transform: uppercase;
+      font-family: 'InterE', sans-serif;
+      font-size: 50px;
+      line-height: 60px;
+      letter-spacing: -2px;
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%)
+    }
+  }
+
   .input {
     width: 100%;
     height: 65px;
@@ -87,6 +116,7 @@
     &:hover {
       color: #212121;
       background-color: rgb(234, 234, 234);
+      cursor: url('../../../img/cursor.png'), pointer;
     }
   }
 
@@ -138,6 +168,10 @@
       height: 40px;
       cursor: default;
       fill: #7170e3;
+
+      &:hover {
+        cursor: url('../../../img/cursor.png'), pointer;
+      }
 
       // &:hover {
       //   path {

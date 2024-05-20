@@ -209,9 +209,6 @@ header nav .metamask {
   width: 156px;
   height: 40px;
 }
-header nav .button-group {
-  width: 400px;
-}
 header nav .search {
   display: flex;
   align-items: center;
@@ -419,7 +416,7 @@ header nav .social .theme {
 .navigation .button-group button {
   width: 100%;
   white-space: nowrap;
-  padding: 0 20px;
+  padding: 0 4vw;
   color: #ffffff;
 }
 .navigation .button-group button:nth-child(1) {
@@ -626,6 +623,34 @@ textarea {
   line-height: 23px;
   margin-bottom: 30px;
 }
+.modal__join .modalVideo {
+  width: 401px;
+  height: 300px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.modal__join .modalVideo video {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.modal__join .modalVideo p {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "InterE", sans-serif;
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: -2px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
 .modal__join .input {
   width: 100%;
   height: 65px;
@@ -658,6 +683,7 @@ textarea {
 .modal__join button:hover {
   color: #212121;
   background-color: rgb(234, 234, 234);
+  cursor: url("../../../img/cursor.png"), pointer;
 }
 .modal__join_motivation {
   max-width: 301px;
@@ -699,6 +725,9 @@ textarea {
   height: 40px;
   cursor: default;
   fill: #7170e3;
+}
+.modal__join .modal__socials svg:hover {
+  cursor: url("../../../img/cursor.png"), pointer;
 }
 
 @media (max-width: 576px) {
