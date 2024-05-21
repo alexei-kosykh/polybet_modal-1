@@ -39,10 +39,25 @@
   }
 }
 
+@include  tablet () {
+  .panel {
+    &__filters {
+
+      .more {
+       display: none;
+      }
+    }
+  }
+}
+
 @include mobile() {
   .panel {
     &__filters {
       // display: none;
+
+      .more {
+        display: block;
+      }
 
       img:nth-child(2), &:before {
        display: none;
