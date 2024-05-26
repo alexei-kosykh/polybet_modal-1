@@ -5,11 +5,13 @@ const email_modal = document.getElementById('email-modal');
 const modal_ok = document.getElementById('data-ok');
 const modal_join = document.getElementById('data-join');
 const modal_form = document.getElementById('data-form');
+const modal_main = document.getElementById('data-main');
 
 const inputName = document.getElementById('name-modal');
 const inputEmail = document.getElementById('email-modal');
 const button_mod = document.getElementById('button-modal');
 const button_join = document.getElementById('button-first');
+const button_ok = document.getElementById('button-ok');
 const button = document.getElementById('submit');
 
 const joinButton = document.querySelector('[ modal_join="#modalJoin"]');
@@ -76,6 +78,14 @@ button_mod.addEventListener('click', function (event) {
 button_join.addEventListener('click', function (event) {
   modal_form.style.display = 'block';
   modal_join.style.display = 'none';
+  modal_main.style.backgroundColor = '#242424';
+  modal_main.style.backgroundImage = 'none';
+});
+
+button_ok.addEventListener('click', function (event) {
+  modal_form.style.display = 'none';
+  modal_join.style.display = 'block';
+  modal_main.style.backgroundImage = `linear-gradient(132deg, rgba(44, 44, 44, 0.593) 0%, rgba(0, 0, 0, 0.188) 100%),url('../../../img/button-hover.png')`;
 });
 
 function showError(input) {

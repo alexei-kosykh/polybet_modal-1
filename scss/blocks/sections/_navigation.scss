@@ -14,6 +14,10 @@
     }
   }
 
+  .button-group-mob {
+    display: none;
+  }
+
   .create-event {
     display: flex;
     width: 50%;
@@ -45,23 +49,50 @@
 
 @include laptop() {
   .navigation {
-    .button-group  {
+    .button-group {
       display: none;
     }
   }
 }
 
 @include tablet() {
+  .logo {
+    display: none;
+  }
   .navigation {
-    .deposit  {
-      display: none;
+    .metamask {
+      width: 125px;
+    }
+    .deposit {
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      // display: none;
     }
   }
 }
 
 @include mobile() {
+  .button-group-mob {
+    display: flex;
+    width: 100%;
+
+    button {
+      width: 45vw;
+      height: 44px;
+      white-space: nowrap;
+      padding: 0 4vw;
+      color: #ffffff;
+      &:nth-child(1) {
+        border: 1px solid #9e9dfe;
+        // margin-left: 15px;
+      }
+    }
+  }
   .navigation {
-    .search  {
+    .search {
       display: none;
     }
   }
