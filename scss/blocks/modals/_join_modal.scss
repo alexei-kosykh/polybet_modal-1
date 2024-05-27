@@ -13,7 +13,6 @@
 
   & .button {
     transition: border 0.2s ease-in-out, background-image 0.2s ease-in-out;
-
   }
 
   .violet:hover {
@@ -293,23 +292,28 @@
 @include mobile() {
   .modal__join {
     width: 85%;
-    background-image: linear-gradient(132deg, rgba(44, 44, 44, 0.593) 0%, rgba(0, 0, 0, 0.188) 100%),url('/img/button-hover.png');
+    background-image: linear-gradient(
+        132deg,
+        rgba(44, 44, 44, 0.593) 0%,
+        rgba(0, 0, 0, 0.188) 100%
+      ),
+      url('/img/button-hover.png');
     // background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     position: relative;
 
-  & .button {
-    background-image: url('/img/button-hover.png');
+    & .button {
+      background-image: url('/img/button-hover.png');
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
       // color: #fff;
       text-transform: none;
-    &:hover {
-      cursor: url('/img/cursor.png'), pointer;
+      &:hover {
+        cursor: url('/img/cursor.png'), pointer;
+      }
     }
-  }
 
     .modal__socials {
       display: none;
@@ -378,11 +382,11 @@
   .modal__join {
     width: 90%;
 
-    .modalVideo {
-      // p {
-      //   font-size: 40px;
-      //   line-height: 40px;
-      // }
-    }
+    // .modalVideo {
+    //   // p {
+    //   //   font-size: 40px;
+    //   //   line-height: 40px;
+    //   // }
+    // }
   }
 }
