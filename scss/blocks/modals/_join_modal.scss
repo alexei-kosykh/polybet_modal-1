@@ -17,11 +17,11 @@
   }
 
   .violet:hover {
-    background-image: url('../../../img/button-hover.png');
+    background-image: url('./img/button-hover.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    cursor: url('../../../img/cursor.png'), pointer;
+    cursor: url('./img/cursor.png'), pointer;
     // color: #fff;
   }
 
@@ -188,7 +188,7 @@
     &:hover {
       color: #212121;
       background-color: rgb(234, 234, 234);
-      cursor: url('../../../img/cursor.png'), pointer;
+      cursor: url('./img/cursor.png'), pointer;
     }
   }
 
@@ -276,7 +276,7 @@
       fill: #7170e3;
 
       &:hover {
-        cursor: url('../../../img/cursor.png'), pointer;
+        cursor: url('./img/cursor.png'), pointer;
         // fill: #242424;
       }
 
@@ -293,21 +293,21 @@
 @include mobile() {
   .modal__join {
     width: 85%;
-    background-image: linear-gradient(132deg, rgba(44, 44, 44, 0.593) 0%, rgba(0, 0, 0, 0.188) 100%),url('../../../img/button-hover.png');
+    background-image: linear-gradient(132deg, rgba(44, 44, 44, 0.593) 0%, rgba(0, 0, 0, 0.188) 100%),url('./img/button-hover.png');
     // background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
     position: relative;
 
   & .button {
-    background-image: url('../../../img/button-hover.png');
+    background-image: url('./img/button-hover.png');
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
-      color: #fff;
+      // color: #fff;
       text-transform: none;
     &:hover {
-      cursor: url('../../../img/cursor.png'), pointer;
+      cursor: url('./img/cursor.png'), pointer;
     }
   }
 
