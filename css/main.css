@@ -1,105 +1,118 @@
 @font-face {
-  font-family: "InterR";
+  font-family: 'InterR';
   font-display: swap;
-  src: url("../fonts/Inter-Regular.woff") format("woff"), url("../fonts/Inter-Regular.woff2") format("woff2");
+  src: url('../fonts/Inter-Regular.woff') format('woff'),
+    url('../fonts/Inter-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: "InterM";
+  font-family: 'InterM';
   font-display: swap;
-  src: url("../fonts/Inter-Medium.woff") format("woff"), url("../fonts/Inter-Medium.woff2") format("woff2");
+  src: url('../fonts/Inter-Medium.woff') format('woff'),
+    url('../fonts/Inter-Medium.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
-  font-family: "InterS";
+  font-family: 'InterS';
   font-display: swap;
-  src: url("../fonts/Inter-SemiBold.woff") format("woff"), url("../fonts/Inter-SemiBold.woff2") format("woff2");
+  src: url('../fonts/Inter-SemiBold.woff') format('woff'),
+    url('../fonts/Inter-SemiBold.woff2') format('woff2');
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
-  font-family: "InterB";
+  font-family: 'InterB';
   font-display: swap;
-  src: url("../fonts/Inter-Bold.woff") format("woff"), url("../fonts/Inter-Bold.woff2") format("woff2");
+  src: url('../fonts/Inter-Bold.woff') format('woff'),
+    url('../fonts/Inter-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
-  font-family: "InterE";
+  font-family: 'InterE';
   font-display: swap;
-  src: url("../fonts/Inter-ExtraBold.woff") format("woff"), url("../fonts/Inter-ExtraBold.woff2") format("woff2");
+  src: url('../fonts/Inter-ExtraBold.woff') format('woff'),
+    url('../fonts/Inter-ExtraBold.woff2') format('woff2');
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
-  font-family: "PoppinsR";
+  font-family: 'PoppinsR';
   font-display: swap;
-  src: url("../fonts/Poppins-Regular.woff") format("woff"), url("../fonts/Poppins-Regular.woff2") format("woff2");
+  src: url('../fonts/Poppins-Regular.woff') format('woff'),
+    url('../fonts/Poppins-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: "PoppinsM";
+  font-family: 'PoppinsM';
   font-display: swap;
-  src: url("../fonts/Poppins-Medium.woff") format("woff"), url("../fonts/Poppins-Medium.woff2") format("woff2");
+  src: url('../fonts/Poppins-Medium.woff') format('woff'),
+    url('../fonts/Poppins-Medium.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
-  font-family: "PoppinsRI";
+  font-family: 'PoppinsRI';
   font-display: swap;
-  src: url("../fonts/Poppins-MediumItalic.woff") format("woff"), url("../fonts/Poppins-MediumItalic.woff2") format("woff2");
+  src: url('../fonts/Poppins-MediumItalic.woff') format('woff'),
+    url('../fonts/Poppins-MediumItalic.woff2') format('woff2');
   font-weight: 400;
   font-style: italic;
 }
 @font-face {
-  font-family: "PoppinsMI";
+  font-family: 'PoppinsMI';
   font-display: swap;
-  src: url("../../fonts/Poppins-MediumItalic.ttf");
+  src: url('../../fonts/Poppins-MediumItalic.ttf');
   font-weight: 500;
   font-style: italic;
 }
 @font-face {
-  font-family: "PoppinsS";
+  font-family: 'PoppinsS';
   font-display: swap;
-  src: url("../fonts/Poppins-SemiBold.woff") format("woff"), url("../fonts/Poppins-SemiBold.woff2") format("woff2");
+  src: url('../fonts/Poppins-SemiBold.woff') format('woff'),
+    url('../fonts/Poppins-SemiBold.woff2') format('woff2');
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
-  font-family: "PoppinsB";
+  font-family: 'PoppinsB';
   font-display: swap;
-  src: url("../fonts/Poppins-Bold.woff") format("woff"), url("../fonts/Poppins-Bold.woff2") format("woff2");
+  src: url('../fonts/Poppins-Bold.woff') format('woff'),
+    url('../fonts/Poppins-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
-  font-family: "PoppinsE";
+  font-family: 'PoppinsE';
   font-display: swap;
-  src: url("../fonts/Poppins-ExtraBold.woff") format("woff"), url("../fonts/Poppins-ExtraBold.woff2") format("woff2");
+  src: url('../fonts/Poppins-ExtraBold.woff') format('woff'),
+    url('../fonts/Poppins-ExtraBold.woff2') format('woff2');
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
-  font-family: "HalveticaM";
+  font-family: 'HalveticaM';
   font-display: swap;
-  src: url("../fonts/HelveticaNeueCyr-Medium.woff") format("woff"), url("../fonts/HelveticaNeueCyr-Medium.woff2") format("woff2");
+  src: url('../fonts/HelveticaNeueCyr-Medium.woff') format('woff'),
+    url('../fonts/HelveticaNeueCyr-Medium.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
-  font-family: "HalveticaN";
+  font-family: 'HalveticaN';
   font-display: swap;
-  src: url("../fonts/HelveticaNeueCyr-Roman.woff") format("woff"), url("../fonts/HelveticaNeueCyr-Roman.woff2") format("woff2");
+  src: url('../fonts/HelveticaNeueCyr-Roman.woff') format('woff'),
+    url('../fonts/HelveticaNeueCyr-Roman.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: "OpenSansR";
+  font-family: 'OpenSansR';
   font-display: swap;
-  src: url("../fonts/OpenSans-Regular.ttf") format("ttf");
+  src: url('../fonts/OpenSans-Regular.ttf') format('ttf');
   font-weight: 400;
   font-style: normal;
 }
@@ -235,7 +248,7 @@ header nav .search {
 header nav .search_info {
   display: flex;
   font-size: 17px;
-  font-family: "HalveticaN", sans-serif;
+  font-family: 'HalveticaN', sans-serif;
   color: #b4b4b4;
 }
 header nav .search_info img {
@@ -266,14 +279,14 @@ header nav .social .theme {
   display: flex;
   justify-content: space-between;
 }
-.socials a:hover[title=Soon] > span {
+.socials a:hover[title='Soon'] > span {
   display: block;
   animation-name: slide;
   animation-duration: 0.5s;
   animation-iteration-count: 1;
 }
-.socials a[title=Soon] > span {
-  font-family: "PoppinsR", sans-serif;
+.socials a[title='Soon'] > span {
+  font-family: 'PoppinsR', sans-serif;
   position: absolute;
   font-size: 8px;
   color: white;
@@ -385,6 +398,9 @@ header nav .social .theme {
 .panel h5 {
   text-transform: none;
 }
+.panel .button-group-mob {
+  display: none;
+}
 .panel__filters {
   position: absolute;
   display: flex;
@@ -398,7 +414,7 @@ header nav .social .theme {
   height: 28px;
 }
 .panel__filters:before {
-  content: "";
+  content: '';
   position: absolute;
   right: 0;
   background-color: #000;
@@ -428,8 +444,23 @@ header nav .social .theme {
   .panel__filters .more {
     display: block;
   }
-  .panel__filters img:nth-child(2), .panel__filters:before {
+  .panel__filters img:nth-child(2),
+  .panel__filters:before {
     display: none;
+  }
+  .panel .button-group-mob {
+    display: flex;
+    width: 100%;
+  }
+  .panel .button-group-mob button {
+    width: 45vw;
+    height: 44px;
+    white-space: nowrap;
+    padding: 0 4vw;
+    color: #ffffff;
+  }
+  .panel .button-group-mob button:nth-child(1) {
+    border: 1px solid #9e9dfe;
   }
 }
 @media (max-width: 393px) {
@@ -464,7 +495,7 @@ header nav .social .theme {
   height: 30px;
 }
 .navigation .create-event button {
-  font-family: "HalveticaN", sans-serif;
+  font-family: 'HalveticaN', sans-serif;
   font-size: 16px;
   background-color: #9e9dfe;
   width: 100%;
@@ -524,7 +555,7 @@ header nav .social .theme {
   justify-content: center;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
-  font-family: "InterS", sans-serif;
+  font-family: 'InterS', sans-serif;
   background: #242424;
   font-size: 14px;
   letter-spacing: 0.28px;
@@ -550,7 +581,11 @@ header nav .social .theme {
 .section__button_violet {
   color: #fff;
   background: rgb(158, 157, 254);
-  background: linear-gradient(90deg, rgb(158, 157, 254) 0%, rgb(237, 86, 141) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(158, 157, 254) 0%,
+    rgb(237, 86, 141) 100%
+  );
   display: inline-block;
 }
 @media (max-width: 768px) {
@@ -561,7 +596,11 @@ header nav .social .theme {
 .input {
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.02) 100%);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.15) 0%,
+    rgba(255, 255, 255, 0.02) 100%
+  );
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   display: flex;
@@ -570,7 +609,11 @@ header nav .social .theme {
   position: relative;
 }
 .input:focus-within {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.29) 0%, rgba(255, 255, 255, 0.163) 100%);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.29) 0%,
+    rgba(255, 255, 255, 0.163) 100%
+  );
 }
 .input input:-moz-placeholder-shown ~ span {
   display: block;
@@ -584,10 +627,12 @@ header nav .social .theme {
   font-size: 14px;
   color: rgb(255, 115, 123);
 }
-.input input ~ span, .input input:valid ~ span {
+.input input ~ span,
+.input input:valid ~ span {
   display: none;
 }
-.input input ~ label, .input input:valid ~ label {
+.input input ~ label,
+.input input:valid ~ label {
   position: absolute;
   top: 73px;
   left: 0;
@@ -597,14 +642,15 @@ header nav .social .theme {
 .input input::-moz-placeholder,
 .input textarea::-moz-placeholder {
   font-size: 14px;
-  font-family: "InterB", sans-serif;
+  font-family: 'InterB', sans-serif;
   color: #fff;
   letter-spacing: 0.28px;
   text-transform: uppercase;
 }
-.input input::-moz-placeholder, .input textarea::-moz-placeholder {
+.input input::-moz-placeholder,
+.input textarea::-moz-placeholder {
   font-size: 14px;
-  font-family: "InterB", sans-serif;
+  font-family: 'InterB', sans-serif;
   color: #fff;
   letter-spacing: 0.28px;
   text-transform: uppercase;
@@ -612,7 +658,7 @@ header nav .social .theme {
 .input input::placeholder,
 .input textarea::placeholder {
   font-size: 14px;
-  font-family: "InterB", sans-serif;
+  font-family: 'InterB', sans-serif;
   color: #fff;
   letter-spacing: 0.28px;
   text-transform: uppercase;
@@ -625,14 +671,15 @@ textarea {
 @media (max-width: 576px) {
   input::-moz-placeholder,
   textarea::-moz-placeholder {
-    font-family: "InterS", sans-serif;
+    font-family: 'InterS', sans-serif;
   }
-  input::-moz-placeholder, textarea::-moz-placeholder {
-    font-family: "InterS", sans-serif;
+  input::-moz-placeholder,
+  textarea::-moz-placeholder {
+    font-family: 'InterS', sans-serif;
   }
   input::placeholder,
   textarea::placeholder {
-    font-family: "InterS", sans-serif;
+    font-family: 'InterS', sans-serif;
   }
 }
 .modal__join {
@@ -641,7 +688,7 @@ textarea {
   border-radius: 20px;
   position: relative;
   background-position: 50% 50%;
-  background-image: "none";
+  background-image: 'none';
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #242424;
@@ -650,7 +697,7 @@ textarea {
   transition: border 0.2s ease-in-out, background-image 0.2s ease-in-out;
 }
 .modal__join .violet:hover {
-  background-image: url("../img/button-hover.png");
+  background-image: url('../img/button-hover.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -679,7 +726,7 @@ textarea {
 }
 .modal__join .bgWrapper img {
   -webkit-backdrop-filter: blur(50px);
-          backdrop-filter: blur(50px);
+  backdrop-filter: blur(50px);
   border-radius: 12px;
 }
 .modal__join div[data-close] {
@@ -707,7 +754,8 @@ textarea {
   left: 114px;
   top: 25px;
 }
-.modal__join form .modal_email input::-moz-placeholder, .modal__join form .modal_name input::-moz-placeholder {
+.modal__join form .modal_email input::-moz-placeholder,
+.modal__join form .modal_name input::-moz-placeholder {
   opacity: 0.6;
 }
 .modal__join form .modal_email input::placeholder,
@@ -726,7 +774,7 @@ textarea {
   margin-bottom: 8px;
 }
 .modal__join h5 + p {
-  font-family: "PoppinsR", sans-serif;
+  font-family: 'PoppinsR', sans-serif;
   font-size: 14px;
   line-height: 23px;
   margin-bottom: 30px;
@@ -745,14 +793,14 @@ textarea {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
 }
 .modal__join .modalVideo p {
   text-align: center;
   text-transform: uppercase;
-  font-family: "InterE", sans-serif;
+  font-family: 'InterE', sans-serif;
   font-size: 50px;
   line-height: 60px;
   letter-spacing: -2px;
@@ -774,7 +822,7 @@ textarea {
   display: flex;
   align-items: center;
   font-size: 14px;
-  font-family: "InterS", sans-serif;
+  font-family: 'InterS', sans-serif;
   color: rgb(255, 255, 255);
   letter-spacing: 0.28px;
   line-height: 17px;
@@ -800,7 +848,7 @@ textarea {
   margin: 0 auto 20px;
 }
 .modal__join .modal__one_motivation span {
-  font-family: "InterM", sans-serif;
+  font-family: 'InterM', sans-serif;
   line-height: 28px;
   font-size: 20px;
   text-align: center;
@@ -810,15 +858,16 @@ textarea {
   padding: 15px;
 }
 .modal__join_motivation {
-  font-family: "PoppinsB", sans-serif;
+  font-family: 'PoppinsB', sans-serif;
   font-size: 16px;
   text-transform: uppercase;
   position: relative;
   text-align: center;
   margin-bottom: 15px;
 }
-.modal__join_motivation:after, .modal__join_motivation:before {
-  content: "";
+.modal__join_motivation:after,
+.modal__join_motivation:before {
+  content: '';
   position: absolute;
   height: 1px;
   width: 16px;
@@ -838,14 +887,14 @@ textarea {
   gap: 10px;
   position: relative;
 }
-.modal__join .modal__socials > a:hover[title=Soon] > span {
+.modal__join .modal__socials > a:hover[title='Soon'] > span {
   display: block;
   animation-name: slide;
   animation-duration: 0.5s;
   animation-iteration-count: 1;
 }
-.modal__join .modal__socials > a[title=Soon] > span {
-  font-family: "PoppinsR", sans-serif;
+.modal__join .modal__socials > a[title='Soon'] > span {
+  font-family: 'PoppinsR', sans-serif;
   position: absolute;
   font-size: 14px;
   color: rgb(246, 246, 246);
@@ -868,13 +917,18 @@ textarea {
 @media (max-width: 576px) {
   .modal__join {
     width: 85%;
-    background-image: linear-gradient(132deg, rgba(44, 44, 44, 0.593) 0%, rgba(0, 0, 0, 0.188) 100%), url("../img/button-hover.png");
+    background-image: linear-gradient(
+        132deg,
+        rgba(44, 44, 44, 0.593) 0%,
+        rgba(0, 0, 0, 0.188) 100%
+      ),
+      url('../img/button-hover.png');
     background-size: cover;
     background-position: center;
     position: relative;
   }
   .modal__join .button {
-    background-image: url("../img/button-hover.png");
+    background-image: url('../img/button-hover.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -892,7 +946,7 @@ textarea {
   }
   .modal__join .modalVideo p {
     text-transform: none;
-    font-family: "InterB", sans-serif;
+    font-family: 'InterB', sans-serif;
     font-size: 60px;
     line-height: 70px;
   }
@@ -909,7 +963,7 @@ textarea {
     display: none;
   }
   .modal__join .modal__one_motivation span {
-    font-family: "InterM", sans-serif;
+    font-family: 'InterM', sans-serif;
     line-height: 28px;
     font-size: 18px;
     text-align: center;
@@ -951,7 +1005,7 @@ textarea {
   align-items: center;
   padding: 30px 0;
   -webkit-backdrop-filter: brightness(50%);
-          backdrop-filter: brightness(50%);
+  backdrop-filter: brightness(50%);
 }
 .modal iframe {
   width: 800px;
@@ -1059,31 +1113,31 @@ body {
   height: 0;
 }
 
-a[target=_blank] {
+a[target='_blank'] {
   cursor: default;
 }
 
 p {
   font-size: 16px;
-  font-family: "PoppinsR", sans-serif;
+  font-family: 'PoppinsR', sans-serif;
   line-height: 23px;
 }
 
 h1 {
   font-size: 90px;
-  font-family: "InterB", sans-serif;
+  font-family: 'InterB', sans-serif;
   text-transform: uppercase;
 }
 
 h3 {
   font-size: 48px;
-  font-family: "PoppinsE", sans-serif;
+  font-family: 'PoppinsE', sans-serif;
   text-transform: uppercase;
 }
 
 h4 {
   font-size: 40px;
-  font-family: "PoppinsB", sans-serif;
+  font-family: 'PoppinsB', sans-serif;
   line-height: 46px;
   text-transform: uppercase;
 }
@@ -1091,14 +1145,14 @@ h4 {
 h5 {
   font-size: 28px;
   line-height: 46px;
-  font-family: "PoppinsB", sans-serif;
+  font-family: 'PoppinsB', sans-serif;
   text-transform: uppercase;
 }
 
 h6 {
   font-size: 24px;
   line-height: 36px;
-  font-family: "PoppinsB", sans-serif;
+  font-family: 'PoppinsB', sans-serif;
   margin-bottom: 30px;
   text-transform: uppercase;
 }
@@ -1127,7 +1181,7 @@ h6 {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 15px 19px 20px 0px rgba(0, 0, 0, 0.3);
-  font-family: "PoppinsM", sans-serif;
+  font-family: 'PoppinsM', sans-serif;
   cursor: default;
 }
 .card:hover {
@@ -1175,7 +1229,7 @@ h6 {
 }
 .card__info {
   font-size: 15px;
-  font-family: "HalveticaN", sans-serif;
+  font-family: 'HalveticaN', sans-serif;
 }
 .card__info_status {
   display: flex;
@@ -1184,7 +1238,9 @@ h6 {
   padding: 15px 0 0 30px;
   margin-bottom: 10px;
 }
-.card__info_status-active, .card__info_status-price, .card__info_status-author {
+.card__info_status-active,
+.card__info_status-price,
+.card__info_status-author {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1197,7 +1253,7 @@ h6 {
   color: rgb(203, 252, 2);
 }
 .card__info_status-price {
-  font-family: "HalveticaM", sans-serif;
+  font-family: 'HalveticaM', sans-serif;
   font-size: 13px;
   width: 65px;
   height: 31px;
@@ -1232,7 +1288,9 @@ h6 {
   min-width: 108px;
   font-size: 10px;
 }
-.card__info_button, .card__info_tags, .card__info_status {
+.card__info_button,
+.card__info_tags,
+.card__info_status {
   animation-name: slide-card-hover;
   animation-duration: 0.5s;
   animation-iteration-count: 1;
@@ -1249,7 +1307,7 @@ h6 {
 }
 
 .descriptionWrapper p::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 4px;
   height: 4px;
@@ -1322,4 +1380,4 @@ h6 {
   .descriptionWrapper {
     text-align: left;
   }
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
