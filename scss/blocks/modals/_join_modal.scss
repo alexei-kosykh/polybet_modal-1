@@ -20,7 +20,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    cursor: url('../img/cursor.png'), pointer;
+    // cursor: url('../img/cursor.png'), pointer;
+    cursor: default;
     // color: #fff;
   }
 
@@ -187,7 +188,8 @@
     &:hover {
       color: #212121;
       background-color: rgb(234, 234, 234);
-      cursor: url('../img/cursor.png'), pointer;
+      // cursor: url('../img/cursor.png'), pointer;
+      cursor: default;
     }
   }
 
@@ -275,7 +277,8 @@
       fill: #7170e3;
 
       &:hover {
-        cursor: url('../img/cursor.png'), pointer;
+        // cursor: url('../img/cursor.png'), pointer;
+        cursor: default;
         // fill: #242424;
       }
 
@@ -311,7 +314,8 @@
       // color: #fff;
       text-transform: none;
       &:hover {
-        cursor: url('../img/cursor.png'), pointer;
+        // cursor: url('../img/cursor.png'), pointer;
+        cursor: default;
       }
     }
 
