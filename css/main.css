@@ -192,6 +192,19 @@ header > div {
   height: 64px;
   gap: 15px;
 }
+header .logo div {
+  background-color: #242424;
+  border-radius: 12px;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .logo div img {
+  width: 44px;
+  height: 44px;
+}
 header nav {
   background-color: #242424;
   height: 64px;
