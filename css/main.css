@@ -304,12 +304,12 @@ header nav .social .theme {
   padding-right: 30px;
 }
 .socials svg {
+  cursor: pointer;
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  cursor: default;
 }
 .socials svg:hover path {
   fill: #9e9dfe;
@@ -701,7 +701,7 @@ textarea {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  cursor: default;
+  cursor: pointer;
 }
 .modal__join > div > img {
   margin-bottom: 20px;
@@ -840,7 +840,7 @@ textarea {
 .modal__join button:hover {
   color: #212121;
   background-color: rgb(234, 234, 234);
-  cursor: default;
+  cursor: pointer;
 }
 .modal__join .modal__one_motivation {
   max-width: 301px;
@@ -905,13 +905,13 @@ textarea {
 .modal__join .modal__socials svg {
   -webkit-backdrop-filter: blur(4.1049365997px);
   backdrop-filter: blur(4.1049365997px);
-  width: 40px;
-  height: 40px;
-  cursor: default;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
   fill: #7170e3;
 }
 .modal__join .modal__socials svg:hover {
-  cursor: default;
+  cursor: pointer;
 }
 
 @media (max-width: 576px) {
@@ -935,7 +935,7 @@ textarea {
     text-transform: none;
   }
   .modal__join .button:hover {
-    cursor: default;
+    cursor: pointer;
   }
   .modal__join .modal__socials {
     display: none;
@@ -1218,7 +1218,7 @@ h6 {
   height: 30px;
   background-color: rgba(28, 28, 28, 0.7803921569);
   border-radius: 10px;
-  cursor: default;
+  cursor: pointer;
 }
 .card__socials a svg {
   opacity: 1;
